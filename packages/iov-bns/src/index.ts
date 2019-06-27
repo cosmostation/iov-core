@@ -6,6 +6,17 @@ export {
   // helpers
   ChainAddressPair,
   Participant,
+  // Usernames
+  BnsUsernamesByOwnerQuery,
+  BnsUsernamesByUsernameQuery,
+  BnsUsernamesQuery,
+  BnsUsernameNft,
+  RegisterUsernameTx,
+  AddAddressToUsernameTx,
+  RemoveAddressFromUsernameTx,
+  // Multisignature contracts
+  CreateMultisignatureTx,
+  UpdateMultisignatureTx,
   // Governance
   ElectorProperties,
   Electors,
@@ -22,16 +33,6 @@ export {
   isVoteTx,
   TallyTx,
   isTallyTx,
-  // NFTs
-  BnsUsernamesByOwnerQuery,
-  BnsUsernamesByUsernameQuery,
-  BnsUsernamesQuery,
-  BnsUsernameNft,
   // transactions
   BnsTx,
-  AddAddressToUsernameTx,
-  CreateMultisignatureTx,
-  RegisterUsernameTx,
-  RemoveAddressFromUsernameTx,
-  UpdateMultisignatureTx,
 } from "./types";
