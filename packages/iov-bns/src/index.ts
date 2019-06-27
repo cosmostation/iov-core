@@ -12,11 +12,16 @@ export {
   BnsUsernamesQuery,
   BnsUsernameNft,
   RegisterUsernameTx,
+  isRegisterUsernameTx,
   AddAddressToUsernameTx,
+  isAddAddressToUsernameTx,
   RemoveAddressFromUsernameTx,
+  isRemoveAddressFromUsernameTx,
   // Multisignature contracts
   CreateMultisignatureTx,
+  isCreateMultisignatureTx,
   UpdateMultisignatureTx,
+  isUpdateMultisignatureTx,
   // Governance
   ElectorProperties,
   Electors,
@@ -35,4 +40,5 @@ export {
   isTallyTx,
   // transactions
   BnsTx,
+  isBnsTx,
 } from "./types";
