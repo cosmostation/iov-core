@@ -3,10 +3,8 @@ export { bnsConnector } from "./bnsconnector";
 export { BnsConnection } from "./bnsconnection";
 export { bnsSwapQueryTag } from "./tags";
 export {
-  // helpers
-  ChainAddressPair,
-  Participant,
   // Usernames
+  ChainAddressPair,
   BnsUsernamesByOwnerQuery,
   BnsUsernamesByUsernameQuery,
   BnsUsernamesQuery,
@@ -18,6 +16,7 @@ export {
   RemoveAddressFromUsernameTx,
   isRemoveAddressFromUsernameTx,
   // Multisignature contracts
+  Participant,
   CreateMultisignatureTx,
   isCreateMultisignatureTx,
   UpdateMultisignatureTx,
