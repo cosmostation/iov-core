@@ -17,6 +17,11 @@ export {
   ProposalResult,
   ProposalStatus,
   Proposal,
+  VoteOption,
+  VoteTx,
+  isVoteTx,
+  TallyTx,
+  isTallyTx,
   // NFTs
   BnsUsernamesByOwnerQuery,
   BnsUsernamesByUsernameQuery,
